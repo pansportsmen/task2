@@ -3907,7 +3907,7 @@ body.modal-open{
 
 @media (max-width: 767px) {
     .ps__marquee {
-        margin: 30px 0;
+        margin: 30px 0; 
     }
 }
 
@@ -3929,4 +3929,141 @@ body.modal-open{
     100% {
         transform: translateX(-50%);
     }
+}
+
+/* about the product */
+
+.ps__container1{
+    padding: 260px;
+    margin-left: 140px;
+}
+
+.ps__characteristics_block {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ps__about-product {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+    margin-bottom: 10px; /* Adjusted margin-bottom */
+    width: 400px;
+}
+
+.ps__about-product_text {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-s);
+    width: 660px;
+}
+
+/* characteristics */
+
+
+.ps__characteristics-title {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+    width: 400px;
+}
+
+.ps__characteristics {
+    width: 242px;
+    font-family: var(--font-primary);
+}
+
+.ps__characteristics td {
+    padding: 13px; 
+    border-bottom: 1px solid #E0E0E0;
+}
+
+/*you might like it*/
+
+.ps__umightlikeit-block{
+    padding-top: 30px;
+    display: flex; 
+    gap: 27px;
+}
+
+.ps__umightlikeit-text{
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+    width: 400px;
+}
+
+/*price 1*/
+
+.ps__ski-grey-text{
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+}
+
+.ps__ski-grey-price-old{
+    color: var(--color-pink);
+    font-size: var(--font-size-l);
+    font-family: var(--font-primary);
+}
+
+.ps__ski-grey-price{
+    color: var(--color-grey);
+    font-size: var(--font-size-xs);
+    text-decoration: line-through;
+}
+
+/*price 2*/
+
+.ps__ski-green-text{
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+}
+
+.ps__ski-green-price-old{
+    color: var(--color-pink);
+    font-size: var(--font-size-l);
+    font-family: var(--font-primary);
+}
+
+.ps__ski-green-price{
+    color: var(--color-grey);
+    font-size: var(--font-size-xs);
+    text-decoration: line-through;
+}
+
+/*price 3*/
+
+.ps__ski-grey2-text{
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+}
+
+
+.ps__ski-grey2-price-old{
+    color: var(--color-pink);
+    font-size: var(--font-size-l);
+    font-family: var(--font-primary);
+}
+
+.ps__ski-grey2-price{
+    color: var(--color-grey);
+    font-size: var(--font-size-xs);
+    text-decoration: line-through;
+}
+
+
+/*price 4*/
+
+.ps__ski-pink-text{
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xl);
+}
+
+
+.ps__ski-pink-price-old{
+    color: var(--color-pink);
+    font-size: var(--font-size-l);
+    font-family: var(--font-primary);
+}
+
+.ps__ski-pink-price{
+    color: var(--color-grey);
+    font-size: var(--font-size-xs);
+    text-decoration: line-through;
 }
